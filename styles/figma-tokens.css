@@ -1,0 +1,78 @@
+/* ──────────────────────────────────────────────────────────────────────────
+ * Editorial archetype — design tokens
+ *
+ * These CSS variables are the only per-project visual config. Swap the values
+ * here (or run the HUE skill on a lead's brand to regenerate) and the whole
+ * archetype reskins without touching components.
+ *
+ * What to swap when spawning a new site from this archetype:
+ *   1. The 4 brand colors (--color-primary, --color-bg, --color-bg-dark, --color-accent)
+ *      and their derivatives — keep contrast ratios intact
+ *   2. The text colors (auto-derive from bg-dark vs bg)
+ *   3. Optionally the font variables — but the Editorial archetype expects a
+ *      serif heading + sans body. If swapping fonts radically, you probably
+ *      want the Maison or Atelier archetype instead.
+ *
+ * Defaults below are the inherited Passage Saint-Honoré palette — they form a
+ * neutral starting point: warm cream + deep red + navy. Replace per-project.
+ * ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Brand colors ────────────────────────────────────────────────────── */
+  /* Primary accent — buttons, eyebrow accents, badges */
+  --color-primary: #C13530;
+  --color-primary-dark: #9B2820;
+
+  /* Page backgrounds. --color-bg is the dominant warm surface;
+     --color-bg-alt alternates section rhythm; --color-bg-dark anchors the hero,
+     FinalCTA, and footer with a dark contrast band. */
+  --color-bg: #F5F0E8;
+  --color-bg-alt: #EDE8DE;
+  --color-bg-dark: #1A2035;
+
+  /* Text. --color-text reads on the light backgrounds;
+     --color-text-light reads on --color-bg-dark; --color-text-muted is the
+     secondary, lower-emphasis tier. */
+  --color-text: #1A2035;
+  --color-text-light: #F5F0E8;
+  --color-text-muted: #6B5F52;
+
+  /* Secondary accent — used for highlight strokes, mustard ticks, dots. */
+  --color-accent: #D4A833;
+  --color-accent-dark: #A87E20;
+
+  /* Borders — keep these as rgba of --color-text so they re-tint when the
+     palette changes. */
+  --color-border: rgba(26, 32, 53, 0.12);
+  --color-border-light: rgba(245, 240, 232, 0.2);
+
+  /* ── Typography ──────────────────────────────────────────────────────── */
+  /* Font variables are bound to next/font CSS variables in app/layout.tsx.
+     Editorial uses a serif heading (Cormorant Garamond default) paired with
+     a clean geometric sans body (Josefin Sans default). Swap with care —
+     line-height and tracking in components assume these proportions. */
+  --font-heading: var(--font-cormorant);
+  --font-body: var(--font-josefin-sans);
+  --tracking-heading: -0.02em;
+  --tracking-caps: 0.12em;
+
+  /* ── Spacing scale ───────────────────────────────────────────────────── */
+  /* Section vertical rhythm. Most homepage sections use --space-section;
+     dense or testimonial-style sections use the -sm or -xs variants. */
+  --space-section: 120px;
+  --space-section-sm: 72px;
+  --space-section-xs: 48px;
+
+  /* ── Radius ──────────────────────────────────────────────────────────── */
+  /* Editorial is intentionally low-radius (sharp, magazine-like).
+     Maison and Atelier archetypes override these. */
+  --radius-card: 4px;
+  --radius-btn: 2px;
+
+  /* ── Motion ──────────────────────────────────────────────────────────── */
+  /* GSAP scroll reveals and Lenis smooth-scroll inherit these defaults. */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-expo: cubic-bezier(0.7, 0, 0.84, 0);
+  --duration-default: 0.6s;
+  --duration-slow: 1s;
+}

@@ -1,0 +1,453 @@
+{
+  "cember": {
+    "url": "https://cemberstudio.com/",
+    "slug": "cember",
+    "outline": [
+      "div: Customize Reject All Accept All",
+      "button: Customize",
+      "button: Reject All",
+      "button: Accept All",
+      "button: Show more",
+      "button: Necessary",
+      "button: Functional",
+      "button: Analytics",
+      "button: Performance",
+      "button: Advertisement",
+      "button: Uncategorised",
+      "div: Reject All Save My Preferences Accept All",
+      "button: Reject All",
+      "button: Save My Preferences",
+      "button: Accept All",
+      "h1: A Modern Design Studio Creating Brands and Websites WithArt-Worthy Allure.",
+      "h2: Refreshingly Remarkable Brands Built on Storytelling Strategy.",
+      "h3: ( we're known for )",
+      "h3: industries we've served",
+      "h2: Our signature design services",
+      "h3: Color Functionality",
+      "h3: Website Design",
+      "h3: Logo design",
+      "h3: Visual Identity",
+      "h3: Artistic Textures + Patterns",
+      "h3: Photoshoot Guidance",
+      "h3: Packaging design",
+      "h3: Collateral Design",
+      "h3: Art + creative direction",
+      "h3: Social media templates",
+      "h3: Specialities",
+      "h2: Brand Design",
+      "h2: Passion Projects",
+      "h2: Website Design",
+      "h2: meet our team",
+      "h2: join the spark",
+      "button: Subscribe",
+      "button: Join Now"
+    ],
+    "styles": {
+      "bodyFont": "Times",
+      "bodyColor": "rgb(0, 0, 0)",
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "probes": [
+        {
+          "sel": "h1",
+          "text": "A Modern Design Studio Creating Brands and Website",
+          "fontFamily": "\"Cember Serif Thin\"",
+          "fontWeight": "400",
+          "fontSize": "70px",
+          "lineHeight": "73.5px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(66, 43, 28)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "h2",
+          "text": "Refreshingly Remarkable Brands Built on Storytelli",
+          "fontFamily": "\"Cember Serif Thin\"",
+          "fontWeight": "400",
+          "fontSize": "67px",
+          "lineHeight": "67px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(66, 43, 28)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "h3",
+          "text": "(  we're known for  )",
+          "fontFamily": "\"Inter Tight\"",
+          "fontWeight": "500",
+          "fontSize": "12px",
+          "lineHeight": "15.6px",
+          "letterSpacing": "normal",
+          "textTransform": "uppercase",
+          "color": "rgb(66, 43, 28)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "p",
+          "text": "We Value Your Privacy",
+          "fontFamily": "Times",
+          "fontWeight": "700",
+          "fontSize": "18px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(68, 27, 14)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "a",
+          "text": "",
+          "fontFamily": "Times",
+          "fontWeight": "400",
+          "fontSize": "12px",
+          "lineHeight": "0px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(68, 27, 14)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "button",
+          "text": "",
+          "fontFamily": "Arial",
+          "fontWeight": "400",
+          "fontSize": "13.3333px",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "sel": "li",
+          "text": "Cookieapbct_site_landing_ts",
+          "fontFamily": "Times",
+          "fontWeight": "400",
+          "fontSize": "12px",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(33, 33, 33)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "topColors": [
+        [
+          "rgb(0, 0, 0)",
+          376
+        ],
+        [
+          "rgb(33, 33, 33)",
+          122
+        ],
+        [
+          "rgb(68, 27, 14)",
+          110
+        ],
+        [
+          "rgb(249, 241, 232)",
+          102
+        ],
+        [
+          "rgb(66, 43, 28)",
+          97
+        ],
+        [
+          "rgb(196, 144, 51)",
+          44
+        ],
+        [
+          "rgb(247, 240, 232)",
+          4
+        ],
+        [
+          "rgb(255, 255, 255)",
+          2
+        ],
+        [
+          "rgb(24, 99, 220)",
+          1
+        ],
+        [
+          "rgb(0, 128, 0)",
+          1
+        ]
+      ],
+      "topBackgrounds": [
+        [
+          "rgba(255, 255, 255, 0)",
+          9
+        ],
+        [
+          "rgb(249, 241, 232)",
+          8
+        ],
+        [
+          "rgb(68, 27, 14)",
+          7
+        ],
+        [
+          "rgb(244, 244, 244)",
+          6
+        ],
+        [
+          "rgb(237, 222, 207)",
+          2
+        ],
+        [
+          "rgb(208, 213, 210)",
+          2
+        ],
+        [
+          "rgb(66, 43, 28)",
+          2
+        ],
+        [
+          "rgb(97, 111, 118)",
+          2
+        ],
+        [
+          "rgb(0, 0, 0)",
+          1
+        ],
+        [
+          "rgb(255, 255, 255)",
+          1
+        ],
+        [
+          "rgb(59, 66, 48)",
+          1
+        ],
+        [
+          "rgba(237, 222, 207, 0.6)",
+          1
+        ]
+      ],
+      "topFonts": [
+        [
+          "Times",
+          596
+        ],
+        [
+          "\"Inter Tight\"",
+          89
+        ],
+        [
+          "tt-commons-pro-expanded, sans-serif",
+          54
+        ],
+        [
+          "Inter-Tight",
+          48
+        ],
+        [
+          "DentonCondensed-Thin",
+          25
+        ],
+        [
+          "PT-Mono",
+          16
+        ],
+        [
+          "\"Cember Serif Thin\"",
+          12
+        ],
+        [
+          "Helvetica, sans-serif",
+          11
+        ],
+        [
+          "Arial",
+          4
+        ],
+        [
+          "Denton-Condensed",
+          3
+        ],
+        [
+          "\"Cember Serif Thin Italic\"",
+          1
+        ]
+      ]
+    }
+  },
+  "prager": {
+    "url": "https://www.pragerbrothers.com/",
+    "slug": "prager",
+    "outline": [
+      "a: Online Orders",
+      "a: Products",
+      "a: Breaducation",
+      "a: Music Calendar",
+      "a: Locations",
+      "button: About",
+      "a: The Prager Brothers",
+      "a: Press",
+      "a: Contact us",
+      "button: Open Menu Close Menu",
+      "a: Online Orders",
+      "a: Products",
+      "a: Breaducation",
+      "a: Music Calendar",
+      "a: Locations",
+      "button: About",
+      "a: The Prager Brothers",
+      "a: Press",
+      "a: Contact us",
+      "button: Open Menu Close Menu",
+      "a: Online Orders",
+      "a: Products",
+      "a: Breaducation",
+      "a: Music Calendar",
+      "a: Locations",
+      "a: Folder: About",
+      "a: Contact us",
+      "a: Back",
+      "a: The Prager Brothers",
+      "a: Press",
+      "h2: Made by Hand with Lovein Carlsbad, CA",
+      "h2: Sign up for our Newsletter",
+      "button: Sign Up"
+    ],
+    "styles": {
+      "bodyFont": "sans-serif",
+      "bodyColor": "rgb(97, 97, 97)",
+      "bodyBg": "rgb(255, 255, 255)",
+      "probes": [
+        {
+          "sel": "h2",
+          "text": "Made by Hand with Lovein Carlsbad, CA",
+          "fontFamily": "\"Montagu Slab\"",
+          "fontWeight": "500",
+          "fontSize": "46.0672px",
+          "lineHeight": "69.0061px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 127, 163)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "p",
+          "text": "",
+          "fontFamily": "futura-pt-bold",
+          "fontWeight": "700",
+          "fontSize": "17.728px",
+          "lineHeight": "31.9104px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(101, 101, 101)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "a",
+          "text": "0",
+          "fontFamily": "futura-pt-bold",
+          "fontWeight": "700",
+          "fontSize": "17.728px",
+          "lineHeight": "17.728px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "button",
+          "text": "About",
+          "fontFamily": "futura-pt-bold",
+          "fontWeight": "700",
+          "fontSize": "17.728px",
+          "lineHeight": "31.9104px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 127, 163)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "nav a",
+          "text": "Online Orders",
+          "fontFamily": "futura-pt-bold",
+          "fontWeight": "700",
+          "fontSize": "17.728px",
+          "lineHeight": "31.9104px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(0, 127, 163)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "sel": "li",
+          "text": "Be prepared by having your order # ready.",
+          "fontFamily": "futura-pt-bold",
+          "fontWeight": "700",
+          "fontSize": "17.728px",
+          "lineHeight": "31.9104px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(101, 101, 101)",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "topColors": [
+        [
+          "rgb(97, 97, 97)",
+          156
+        ],
+        [
+          "rgb(101, 101, 101)",
+          141
+        ],
+        [
+          "rgb(0, 127, 163)",
+          121
+        ],
+        [
+          "rgb(255, 255, 255)",
+          17
+        ],
+        [
+          "rgb(0, 0, 0)",
+          2
+        ]
+      ],
+      "topBackgrounds": [
+        [
+          "rgb(255, 255, 255)",
+          14
+        ],
+        [
+          "rgb(0, 127, 163)",
+          11
+        ],
+        [
+          "rgba(0, 127, 163, 0.5)",
+          2
+        ]
+      ],
+      "topFonts": [
+        [
+          "futura-pt-bold",
+          404
+        ],
+        [
+          "sans-serif",
+          23
+        ],
+        [
+          "Poppins",
+          6
+        ],
+        [
+          "\"Montagu Slab\"",
+          4
+        ]
+      ]
+    },
+    "imageUrls": [
+      "https://images.squarespace-cdn.com/content/v1/64a70115a4ee046e29ebf663/1688666426517-O1T1VWM7TP8QZZI77E01/prager-bros_Full-CMYK.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/64a70115a4ee046e29ebf663/1688666390969-PNU2PG71B9KM5Q547E48/210726_Prager-Bros_0070.jpg?format=1000w",
+      "https://images.squarespace-cdn.com/content/v1/64a70115a4ee046e29ebf663/1688666391019-47D8Q6X7167FFKPIAKRR/IMG_5417.jpg?format=1000w"
+    ],
+    "downloadedCount": 3
+  }
+}
