@@ -1980,6 +1980,16 @@ h3.display { font-size: clamp(28px, 3.4vw, 56px); }
 }
 .section-head .eyebrow::before { width: 24px; }
 
+/* Hero ghost button must always read white — the hero photo is dark regardless of theme */
+.hero .btn.ghost {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.55);
+}
+.hero .btn.ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
 /* Fix: the global bottom progressive-blur (fixed, z-40) was overlaying the
    slide-out nav menu's bottom (Follow us / Bakeries), making it look cut off.
    Hide the blur while the menu is open, and let the menu panel scroll fully. */
