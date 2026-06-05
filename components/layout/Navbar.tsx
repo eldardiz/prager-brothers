@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useEffect, useRef } from 'react'
 import { brand } from '@/lib/brand'
 
@@ -150,9 +151,7 @@ export default function Navbar() {
         <div className="underlay-nav__bar">
           <div className="underlay-nav__container">
             <Link href="/" className="underlay-nav__logo" aria-label={brand.identity.name}>
-              <span style={{ fontFamily: 'var(--font-display, serif)', fontSize: 18, fontWeight: 600, color: 'currentColor', letterSpacing: '-0.01em' }}>
-                {brand.identity.name}
-              </span>
+              <Image src="/images/logo.png" alt={brand.identity.name} width={50} height={48} className="brand-logo" priority style={{ height: 46, width: 'auto' }} />
             </Link>
             <button
               data-underlay-nav-toggle

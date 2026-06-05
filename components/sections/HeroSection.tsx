@@ -7,7 +7,6 @@ export default function HeroSection() {
   const established: string = brand.identity.established
   const { lat, lng } = brand.identity.coordinates
   const cityShort: string = brand.contact.cityShort
-  const hoursFull: string = brand.hours.full
   const orderUrl: string = brand.booking.url
   const imgSrc = '/images/hero/placeholder.jpg'
 
@@ -50,9 +49,7 @@ export default function HeroSection() {
           </div>
 
           <div className="hero-bottom">
-            <div className="stack">
-              {hoursFull ? <span>{hoursFull.toUpperCase()}</span> : null}
-            </div>
+            <div className="stack" />
             <div className="scroll-prompt">
               <span>Scroll</span>
               <span className="line"></span>

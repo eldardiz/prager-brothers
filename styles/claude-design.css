@@ -618,14 +618,14 @@ h3.display { font-size: clamp(28px, 3.4vw, 56px); }
   font-family: var(--font-script);
   font-size: clamp(28px, 2.4vw, 40px);
   margin-bottom: 18px;
-  color: var(--mustard);
+  color: #9FD8EC;
   line-height: 1;
 }
 .hero-headline h1 {
   font-family: var(--font-display);
   font-weight: 300;
-  font-size: clamp(64px, 11vw, 184px);
-  line-height: 0.92;
+  font-size: clamp(45px, 7.7vw, 129px);
+  line-height: 0.96;
   letter-spacing: -0.025em;
 }
 .hero-headline h1 .word {
@@ -1979,3 +1979,12 @@ h3.display { font-size: clamp(28px, 3.4vw, 56px); }
   text-transform: uppercase;
 }
 .section-head .eyebrow::before { width: 24px; }
+
+/* Fix: the global bottom progressive-blur (fixed, z-40) was overlaying the
+   slide-out nav menu's bottom (Follow us / Bakeries), making it look cut off.
+   Hide the blur while the menu is open, and let the menu panel scroll fully. */
+body[data-menu-status="open"] .progressive-blur { display: none; }
+.underlay-nav__inner { padding-bottom: 4em; }
+@media (max-width: 767px) {
+  .underlay-nav__inner { padding-bottom: 3em; }
+}
